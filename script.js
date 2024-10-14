@@ -5,7 +5,7 @@ fetch('songs.json')
     const today = new Date();
     const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
     
-    const songIndex = (dayOfYear) % totalSongs;
+    const songIndex = (dayOfYear + 1) % totalSongs;
     const selectedSong = data.songs[songIndex];
 
     document.getElementById('highlight').innerText = selectedSong.highlight; // Muestra la estrofa destacada
