@@ -20,7 +20,7 @@ fetch('songs.json')
 
       // Crear el botón de enlace a Spotify
       const spotifyButton = document.createElement('a');
-      spotifyButton.href = 'https://open.spotify.com/playlist/your_playlist_id'; // Reemplaza con el enlace de tu playlist
+      spotifyButton.href = 'https://open.spotify.com/playlist/1VR2fDotIvk0gfcdqYspbp?si=ptlthXDVSju4sdrhpPrzEQ&pi=qHyla4LBSQyVJ'; // Reemplaza con el enlace de tu playlist
       spotifyButton.innerText = 'Escucha la playlist completa en Spotify';
       spotifyButton.className = 'bg-green-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-green-700 transition-colors block text-center';
 
